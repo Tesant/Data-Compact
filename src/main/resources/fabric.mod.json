@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "datapackcompat",
+  "version": "${version}",
+  "name": "Datapack Compat",
+  "description": "Diagnostics for legacy datapacks on Minecraft 1.21.11.",
+  "authors": ["Tesant / OpenAI"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tesant.datapackcompat.DatapackCompat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
